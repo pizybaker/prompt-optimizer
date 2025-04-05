@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Prompt Optimizer",
+  "version": "1.0",
+  "description": "Rewrites vague prompts into better ones.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["http://localhost:8000/"]
+}
